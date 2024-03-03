@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Greeting</title>
+
+    <style>
+      input {
+        display: block;
+        margin: 0.5em;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form action="/greet">
+      <label for="person-name">Name </label>
+      <input
+        type="text"
+        placeholder="Enter your name"
+        name="person-name"
+        id="person-name"
+        class="field"
+      />
+
+      <label for="message">message </label>
+      <input type="text" placeholder="message" name="message" id="message" />
+
+      <label for="password">password</label>
+      <input type="password" name="password" id="password" />
+
+      <fieldset>
+        <legend>Choose your Interest</legend>
+        <label for="music">Music</label>
+        <input type="checkbox" name="Interest" id="music" value="music" />
+
+        <label for="conding">Coding</label>
+        <input type="checkbox" name="Interest" id="coding" value="coding" />
+
+        <label for="playing">Playing</label>
+        <input type="checkbox" name="Interest" id="playing" value="coding" />
+      </fieldset>
+
+      <label for="profession">Profession</label>
+      <input
+        type="text"
+        placeholder="enter your profession"
+        name="person-name"
+        id="profession"
+      />
+
+      <input type="submit" value="submit" />
+    </form>
+  </body>
+</html>
